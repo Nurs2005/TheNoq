@@ -1,0 +1,280 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+@font-face {
+  font-family: GilroyLight;
+  src: url("../fonts/Gilroy-Light.otf");
+}
+@font-face {
+  font-family: GilroyBold;
+  src: url("../fonts/Gilroy-ExtraBold.otf");
+}
+@font-face {
+  font-family: GilroyMedium;
+  src: url("../fonts/GilroyMedium.ttf");
+}
+body {
+  padding-top: 3rem;
+  color: #5a5a5a;
+  font-family: GilroyLight, serif;
+}
+h1,h2,h3,h4,h5{
+  font-family: GilroyBold, serif;
+}
+.block-title{
+  color:black;
+}
+.bold{
+  font-weight: bold;
+  color: #333;
+  font-family: GilroyBold;
+}
+.lead{
+  width: 70%;
+}
+.navbar-light{
+  background: #fff;
+  color: rgba(124, 124, 124, 1);
+}
+.navbar-expand-md .navbar-nav .nav-item {
+  padding-left: 8rem;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+  color: rgba(254, 114, 28, 1);
+  font-weight: bold;
+  border-bottom: 3px solid rgba(254, 114, 28, 1);
+  padding-bottom: 3px;
+}
+
+.first-block{
+  background-image: url("../img/noq-bg.jpg");
+  height: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 15rem;
+  color: #fff;
+  padding-bottom: 15rem;
+}
+.partnership-block{
+  background-image: url("../img/partnership.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 15rem;
+  color: #fff;
+  padding-bottom: 15rem;
+}
+.support-block{
+  background-image: url("../img/support-bg.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 15rem;
+  color: #fff;
+  padding-bottom: 15rem;
+}
+.partnership-title{
+  font-size: 5rem;
+}
+.form-text{
+  text-align: center;
+  color:#000000;
+}
+.form-block{
+  background: #fff;
+  border-radius: 10px;
+  padding: 15px;
+}
+.btn-apply{
+  background: #FE721C;
+  border-radius: 40px;
+  border:none;
+  padding: 1rem 40px 1rem 40px;
+}
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+.noq-card{
+  border-radius: 30px;
+}
+.noq-card img{
+  border-radius: 30px 30px 0px 0;
+}
+.card-title{
+  color:rgba(254, 114, 28, 1);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.noq{
+  color:rgba(254, 114, 28, 1);
+}
+.support-title{
+  font-size: 5rem;
+  color: #363636;
+}
+
+.titles{
+  color:rgba(254, 114, 28, 1);
+}
+.instruction{
+  padding-top: 10rem;
+}
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+  background-color: #777;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+.marketing{
+  padding-top: 10rem;
+  padding-bottom: 5rem;
+}
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+.first-100{
+  color: #363636;
+}
+.hundred{
+  color: #FE721C;
+  font-size: 70px;
+}
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+.mobile-list{
+  list-style: none;
+  margin: 0;
+  padding: 10px 0 0 0;
+}
+.mobile-list a{
+  color: rgba(54, 54, 54, 1);
+  text-decoration: underline;
+}
+.link-list{
+  list-style: none;
+  margin: 0;
+  padding: 10px 0 0 0;
+}
+.link{
+  color: #0000EE;
+}
+.links-row{
+  padding-top: 10px;
+  font-size: 14px;
+}
+.links-row a {
+  color: rgba(54, 54, 54, 1);
+  text-decoration: underline;
+}
+.social-network-list{
+  list-style: none;
+  display: inline-block;
+}
+.list-item{
+  padding-left: 15px;
+  display: inline-block;
+}
+footer{
+  padding-top: 5rem;
+  background: #FAFAFA;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+@media only screen and (max-width: 600px) {
+  .partnership-title{
+    font-size: 2rem;
+  }
+  .partnership-block {
+    padding-top: 6rem;
+    color: #fff;
+    padding-bottom: 20rem;
+    text-align: center;
+    height: 120%;
+  }
+  .block-title{
+    padding-top: 2rem;
+  }
+  .navbar-expand-md .navbar-nav .nav-item{
+    padding-left: 0;
+  }
+  .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(254, 114, 28, 1);
+    font-weight: bold;
+    border:none;
+    padding-bottom: 3px;
+  }
+  .instruction{
+    padding-top: 3rem;
+    text-align: center;
+  }
+  .lead{
+    width: 100%;
+  }
+  footer{
+    text-align: center;
+  }
+  .social-network-list{
+    padding-top: 2rem;
+    text-align: center;
+  }
+}
+@media (min-width: 40em) {
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 4rem;
+  }
+}
