@@ -21,8 +21,16 @@ body {
 h1,h2,h3,h4,h5{
   font-family: GilroyBold, serif;
 }
+
+:root{
+  --primary-color:linear-gradient(155.65deg, #0009E7 11.74%, #7D2169 94.49%);
+}
+
 .block-title{
-  color:black;
+  background: -webkit-linear-gradient(155.65deg, #0009E7 11.74%, #7D2169 94.49%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
 }
 .bold{
   font-weight: bold;
@@ -32,6 +40,15 @@ h1,h2,h3,h4,h5{
 .lead{
   width: 70%;
 }
+.logo{
+  height: 55px;
+}
+.border-gradient {
+  
+}
+.border-gradient-primary {
+
+}
 .navbar-light{
   background: #fff;
   color: rgba(124, 124, 124, 1);
@@ -40,10 +57,19 @@ h1,h2,h3,h4,h5{
   padding-left: 8rem;
 }
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-  color: rgba(254, 114, 28, 1);
+ 
   font-weight: bold;
-  border-bottom: 3px solid rgba(254, 114, 28, 1);
+  border-bottom: 3px solid var(--primary-color);
   padding-bottom: 3px;
+  border-bottom: 2px solid;
+  border-image-slice: 1;
+  border-width: 2px;
+   background: linear-gradient(155.65deg, #0009E7 11.74%, #7D2169 94.49%);
+    background-position: bottom;
+    background-size: 100% 2px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    border-image-source: linear-gradient(155.65deg, #0009E7 11.74%, #7D2169 94.49%);
 }
 
 .first-block{
@@ -89,11 +115,12 @@ h1,h2,h3,h4,h5{
   padding: 15px;
 }
 .btn-apply{
-  background: #FE721C;
+  background: var(--primary-color);
   border-radius: 40px;
   border:none;
   padding: 1rem 40px 1rem 40px;
 }
+
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 .noq-card{
@@ -103,20 +130,26 @@ h1,h2,h3,h4,h5{
   border-radius: 30px 30px 0px 0;
 }
 .card-title{
-  color:rgba(254, 114, 28, 1);
   padding-top: 10px;
   padding-bottom: 10px;
+  background: -webkit-linear-gradient(155.65deg, #0009E7 11.74%, #7D2169 94.49%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .noq{
-  color:rgba(254, 114, 28, 1);
+   background: -webkit-linear-gradient(155.65deg, #0009E7 11.74%, #7D2169 94.49%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .support-title{
-  font-size: 5rem;
+  font-size: 3rem;
   color: #363636;
 }
 
 .titles{
-  color:rgba(254, 114, 28, 1);
+  background: -webkit-linear-gradient(155.65deg, #0009E7 11.74%, #7D2169 94.49%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .instruction{
   padding-top: 10rem;
@@ -165,9 +198,17 @@ h1,h2,h3,h4,h5{
 .first-100{
   color: #363636;
 }
+.gradient{
+  background: -webkit-linear-gradient(155.65deg, #0009E7 11.74%, #7D2169 94.49%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .hundred{
-  color: #FE721C;
   font-size: 70px;
+  background: -webkit-linear-gradient(155.65deg, #0009E7 11.74%, #7D2169 94.49%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /* Featurettes
